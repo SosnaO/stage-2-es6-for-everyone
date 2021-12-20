@@ -1,3 +1,9 @@
 export function showWinnerModal(fighter) {
-  // call showModal function 
+  // call showModal function
+  const winnerInfo = {
+    title: '...And The WINNER!',
+    bodyElement: fighter.name
+  };
+
+  showModal(winnerInfo);
 }
